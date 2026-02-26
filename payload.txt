@@ -1,0 +1,36 @@
+// Register Tenant
+1.
+{
+  "name": "Green Valley Advanced Clinic",
+  "tenantType": "HOSPITAL",
+  "email": "contact@greenvalleyclinic.in",
+  "contactNumber": "+919812345678",
+  "registrationNumber": "REG-2018-9021",
+  "licenseNumber": "LIC-992314",
+  "establishedYear": 2018,
+  "founderName": "Dr. Meera Patel",
+  "gstNumber": "24PQRSX5678L1Z2",
+  "panNumber": "PQRSX5678L",
+  "website": "https://www.greenvalleyclinic.in",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Pune"
+}
+
+2.
+{
+  "name": "MedSupply Chain Solutions Pvt Ltd",
+  "tenantType": "SUPPLIER",
+  "email": "support@medsupplychain.in",
+  "contactNumber": "+919876543210",
+  "registrationNumber": "REG-2015-4478",
+  "licenseNumber": "LIC-556781",
+  "establishedYear": 2015,
+  "founderName": "Rajesh Malhotra",
+  "gstNumber": "27ABCDE1234F1Z5",
+  "panNumber": "ABCDE1234F",
+  "website": "https://www.medsupplychain.in",
+  "country": "India",
+  "state": "Gujarat",
+  "city": "Ahmedabad"
+}
