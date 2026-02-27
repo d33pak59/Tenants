@@ -4,4 +4,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.UUID;
 
 public interface MasterDrugRepository extends JpaRepository<MasterDrug, UUID> {
+    MasterDrug findByDrugCode(String drugCode);
 }

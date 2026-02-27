@@ -25,6 +25,12 @@ public class MasterDrugController {
                 .body(masterDrugService.addDrug(request));
     }
 
+
+    @GetMapping("/{code}")
+    public ResponseEntity<MasterDrugResponseDto>getDrugByCode(@PathVariable String code){
+        return ResponseEntity.ok(masterDrugService.getDrugByCode(code));
+    }
+
     @GetMapping
     public ResponseEntity<List<MasterDrugResponseDto>> getAllDrugs() {
         return ResponseEntity.ok(masterDrugService.getAllDrugs());

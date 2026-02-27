@@ -23,7 +23,6 @@ public class MasterDrugService {
         return "DRUG" + (101 + count);
     }
 
-
 public List<MasterDrugResponseDto> addDrugsFromCsv(MultipartFile file) throws Exception {
 
         List<MasterDrugResponseDto> addedDrugs = new ArrayList<>();
@@ -62,6 +61,11 @@ public List<MasterDrugResponseDto> addDrugsFromCsv(MultipartFile file) throws Ex
         return addedDrugs;
     }
 
+    public MasterDrugResponseDto getDrugByCode(String code){
+        MasterDrug m1=masterDrugRepository.findByDrugCode(code);
+        if(m1==null) throw new RuntimeException("Drug not found");
+        return toResponse(m1);
+    }
 
     public MasterDrugResponseDto addDrug(MasterDrugRequestDto request) {
 
