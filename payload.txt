@@ -34,3 +34,21 @@
   "state": "Gujarat",
   "city": "Ahmedabad"
 }
+
+3 for Platform admin
+{
+  "name": "TraceMeds Platform Administration",
+  "tenantType": "PLATFORM_ADMIN",
+  "email": "admin@tracemeds.in",
+  "contactNumber": "+919812345678",
+  "registrationNumber": "REG-2020-9001",
+  "licenseNumber": "LIC-ADMIN-001",
+  "establishedYear": 2020,
+  "founderName": "Platform Governance Board",
+  "gstNumber": "24ABCDE5678K1Z2",
+  "panNumber": "ABCDE5678K",
+  "website": "https://www.tracemeds.in",
+  "country": "India",
+  "state": "Maharashtra",
+  "city": "Mumbai"
+}

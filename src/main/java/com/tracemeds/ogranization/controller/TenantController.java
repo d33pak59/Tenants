@@ -38,4 +38,10 @@ public class TenantController {
         Tenant tenant=tenantrepository.findByTenantCode(tenantCode).orElse(null);
         return tenant != null && Objects.equals(tenant.getTenantType().toString(), "HOSPITAL");
     }
+
+    @GetMapping("/isAdmin")
+    public Boolean checkTenantAdmin(@RequestParam String tenantCode) {
+        Tenant tenant=tenantrepository.findByTenantCode(tenantCode).orElse(null);
+        return tenant != null && Objects.equals(tenant.getTenantType().toString(), "PLATFORM_ADMIN");
+    }
 }
